@@ -18,6 +18,11 @@ dependencies:
   firebase_auth: ^3.3.5
   cloud_firestore: ^3.1.6
   firebase_storage: ^10.2.5
+#  Google Signin
+  google_sign_in: ^5.2.3
+  flutter_signin_button: ^2.0.0
+#  Utilites
+  image_picker: ^0.8.4+4
 
 dev_dependencies:
   flutter_test:
@@ -27,13 +32,10 @@ dev_dependencies:
 
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/social_chatting.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
